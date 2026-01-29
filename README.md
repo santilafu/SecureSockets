@@ -9,7 +9,9 @@ Para esta actividad, he actuado como Autoridad de Certificación (CA) generando 
 * **Comando:** `keytool` (Java KeyTool).
 * **Archivo generado:** `almacen_banco.jks`
 * **Algoritmo:** RSA 2048 bits.
-* **Propietario:** Santiago Lafuente (Organización: Aula Campus).
+* **Propietario:** Santiago Lafuente 
+
+![img.png](img.png)
 
 ### 2. Implementación Técnica
 * **Servidor (`ServidorSSL`):** Utiliza `SSLServerSocketFactory`. Carga el almacén de claves (`javax.net.ssl.keyStore`) para autenticarse ante los clientes.
